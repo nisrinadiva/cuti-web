@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistem Pengajuan Cuti</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body onload="loadReview()">
+    <div class="container">
+      <h1>Review Pengajuan Cuti</h1>
+      <h3 class="alert1">Harap perhatikan detail permohonan Anda sebelum mengirim!</h3>
+
+      <p><strong>Nama:</strong> <span id="revNama"></span></p>
+      <p><strong>Divisi:</strong> <span id="revDiv"></span></p>
+      <p><strong>Alasan:</strong> <span id="revAlasn"></span></p>
+      <p><strong>Tanggal:</strong> <span id="revTgl"></span></p>
+
+      <p><strong>Tanda Tangan:</strong></p>
+      <img id="revTTD" width="250" />
+
+      <button onclick="submit()" class="btn1">Kirim</button>
+    </div>
+
+    <script src="../js/script.js"></script>
+  </body>
+</html>

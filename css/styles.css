@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.container {
+  max-width: 650px;
+  margin: 21px auto;
+  background: white;
+  padding: 21px;
+  border-radius: 10px;
+}
+
+.titleHomepage {
+  text-align: center;
+}
+
+input,
+textarea {
+  width: 96%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.btn1 {
+  background: rgb(61, 61, 190);
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.btnTTD {
+  background: gray;
+  color: white;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.alert1 {
+  background-color: #fcefbf;     
+  color: #4f3c05;                
+  padding: 12px 16px;
+  border-radius: 6px;
+  margin: 15px 0;
+  font-size: 14px;
+}
+
+#ttdCanvas {
+  border: 1px solid black;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
+ul li {
+  background: #e8e8e8;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+}

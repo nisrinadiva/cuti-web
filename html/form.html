@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistem Pengajuan Cuti</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Form Pengajuan Cuti</h1>
+
+      <label>Nama:</label>
+      <input type="text" id="nama" required />
+
+      <label>Divisi:</label>
+      <input type="text" id="divisi" required />
+
+      <label>Alasan:</label>
+      <textarea id="alasan" required></textarea>
+
+      <label>Tanggal Cuti:</label>
+      <input type="date" id="tanggal" required />
+
+      <label>Tanda Tangan:</label> <br>
+      <canvas id="ttdCanvas" width="300" height="150"></canvas>
+      <button onclick="clearTTD()" class="btnTTD"> Hapus Tanda Tangan
+      </button><br><br>
+
+      <button onclick="reviewForm()" class="btn1">Selanjutnya</button>
+    </div>
+
+    <script src="../js/signature.js"></script>
+    <script src="../js/script.js"></script>
+  </body>
+</html>
